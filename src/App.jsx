@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import StarRating from './components/StarRating'
 import Carousel from './components/Carousel'
+import Accordion from './components/Accordion'
+
 
 function App() {
   
@@ -12,6 +14,7 @@ function App() {
       <div>
         <StarRating numberofstars={10}/>
         <Carousel/>
+        <Accordion/>
       </div>
     </>
   )
