@@ -59,7 +59,7 @@ const Carousel = () => {
 
             <div className="overflow-hidden flex gap-4 items-center justify-center">
 
-                <button className="text-gray-300  border p-3"
+                <button className="text-gray-300  border p-1 md:p-3"
                  onClick={handlebackward}
                  >
                     back</button>
@@ -78,7 +78,7 @@ const Carousel = () => {
                         )
                     })} </div>
 
-                <button className="text-gray-300  border p-3"
+                <button className="text-gray-300  border p-1  md:p-3"
                 
                 onClick={handleforward}
                 >forward</button>

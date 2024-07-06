@@ -5,6 +5,8 @@ import './App.css'
 import StarRating from './components/StarRating'
 import Carousel from './components/Carousel'
 import Accordion from './components/Accordion'
+import ProgressBar from './components/ProgressBar'
+import Pagination from './components/Pagination'
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <StarRating numberofstars={10}/>
         <Carousel/>
         <Accordion/>
+        <ProgressBar/>
+        <Pagination NumberOfProductsToShow={8}/>
       </div>
     </>
   )

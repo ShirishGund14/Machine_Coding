@@ -12,7 +12,7 @@ const Accordion = () => {
     <div className='text-4xl text-yellow-600 text-center font-bold my-20'>Accordion</div>
 
 
-    <div className='w-1/2 bg-gray-800 text-yellow-500 p-5 flex flex-col gap-6 '>
+    <div className=' w-full md:w-1/2 bg-gray-800 text-yellow-500 p-5 flex flex-col gap-6 overflow-auto '>
 
            <div className='flex justify-between items-center'>
            <p> Lorem ipsum dolor sit amet.</p>
