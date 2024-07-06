@@ -69,17 +69,17 @@ const Pagination = ({NumberOfProductsToShow=8}) => {
 
 
 
-            <div className='grid grid-cols-4 w-full '>
+            <div className='grid grid-cols-2 md:grid-cols-4 w-full '>
 
                 {
                     //p1    1-8  = p,p*8
                     //p2    9-16 =p*2
                     //p3    17-24
 
-                    data.slice(pageNumber* NumberOfProductsToShow-(NumberOfProductsToShow-1),pageNumber* NumberOfProductsToShow).map((data, index) => {
+                    data.slice(pageNumber* NumberOfProductsToShow-(NumberOfProductsToShow),pageNumber* NumberOfProductsToShow).map((data, index) => {
                         return (
-                            <div className='bg-white h-60 w-80 p-4 gap-3 my-3' key={index}>
-                                <div className='font-bold'>Title: {data.title}</div>
+                            <div className='bg-white  h-min md:w-80 p-4 gap-3 my-3' key={index}>
+                                <div className='text-sm font-bold h-fit '>Title: {data.title}</div>
                                 <img src={`${data.url}`} alt={`${data.thumbnailUrl}`} className='w-full h-40 object-cover' />
                             </div>
                         )

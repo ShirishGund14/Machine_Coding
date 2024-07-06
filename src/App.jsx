@@ -7,6 +7,7 @@ import Carousel from './components/Carousel'
 import Accordion from './components/Accordion'
 import ProgressBar from './components/ProgressBar'
 import Pagination from './components/Pagination'
+import OTP from './components/OTP'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Accordion/>
         <ProgressBar/>
         <Pagination NumberOfProductsToShow={8}/>
+        <OTP digits={6}/>
       </div>
     </>
   )
