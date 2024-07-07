@@ -8,6 +8,7 @@ import Accordion from './components/Accordion'
 import ProgressBar from './components/ProgressBar'
 import Pagination from './components/Pagination'
 import OTP from './components/OTP'
+import CountDownTimer from './components/CountDownTimer'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <ProgressBar/>
         <Pagination NumberOfProductsToShow={8}/>
         <OTP digits={6}/>
+        <CountDownTimer/>
       </div>
     </>
   )
